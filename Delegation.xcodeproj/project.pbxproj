@@ -12,6 +12,7 @@
 		296906B81BAEEE8900B52648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296906B61BAEEE8900B52648 /* Main.storyboard */; };
 		296906BA1BAEEE8900B52648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296906B91BAEEE8900B52648 /* Assets.xcassets */; };
 		296906BD1BAEEE8900B52648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296906BB1BAEEE8900B52648 /* LaunchScreen.storyboard */; };
+		296906C51BAEF03700B52648 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296906C41BAEF03700B52648 /* Model.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		296906B91BAEEE8900B52648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296906BC1BAEEE8900B52648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		296906BE1BAEEE8900B52648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296906C41BAEF03700B52648 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		296906B11BAEEE8900B52648 /* Delegation */ = {
 			isa = PBXGroup;
 			children = (
-				296906B21BAEEE8900B52648 /* AppDelegate.swift */,
+				296906C41BAEF03700B52648 /* Model.swift */,
 				296906B41BAEEE8900B52648 /* ViewController.swift */,
+				296906C61BAEF04600B52648 /* Support files */,
+			);
+			path = Delegation;
+			sourceTree = "<group>";
+		};
+		296906C61BAEF04600B52648 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
 				296906B61BAEEE8900B52648 /* Main.storyboard */,
 				296906B91BAEEE8900B52648 /* Assets.xcassets */,
 				296906BB1BAEEE8900B52648 /* LaunchScreen.storyboard */,
 				296906BE1BAEEE8900B52648 /* Info.plist */,
+				296906B21BAEEE8900B52648 /* AppDelegate.swift */,
 			);
-			path = Delegation;
+			name = "Support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296906C51BAEF03700B52648 /* Model.swift in Sources */,
 				296906B51BAEEE8900B52648 /* ViewController.swift in Sources */,
 				296906B31BAEEE8900B52648 /* AppDelegate.swift in Sources */,
 			);
